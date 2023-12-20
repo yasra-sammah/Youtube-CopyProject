@@ -1,0 +1,56 @@
+.search-bar{
+  display: block;
+}
+p{
+  font-family: Roboto,Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.thumble{
+  width: 100%;
+}
+
+.thumble-row{
+  margin-bottom: 10px;
+}
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+  row-gap: 20px;
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile{
+  display: inline-block;
+  width: 40px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.channel-picture{
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+  
+}
+.video-info{
+  display: inline-block;
+  width: 200px;
+}
+.text1{
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.text2,.text3{
+  font-size: 13px;
+  color: rgb(96, 88, 88);
+}
+.text2{
+  margin-bottom: 4px;
+}
